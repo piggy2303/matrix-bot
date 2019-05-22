@@ -63,15 +63,39 @@ def print_table(new_table):
         print("")
 
 
+def calcu_score_row(arr):
+        max_index = len(arr)
+
+        sum = 0
+        a = arr[0]
+
+        count_same = 0
+        for b in range(1,max_index,1):
+                if arr[b] == a:
+                        count_same = count_same + 1
+                if arr[b] != a:
+                        
+                
+                print sum   
+        print sum
+
+calcu_score_row([8,7,7,7,8])            
+                
+#  7 7 7 8 
+#  x x x 0
+
 def calcu_score(new_table):
+        for i in range():
+                pass
+        
         
 
-table = generate_list_item()
-for i in range(27):
-        new_item = generate_item_number()
-        print(new_item)
-        table[i] = new_item
-new_table = change_table_to_1_array(table)
-print_table (new_table)
+# table = generate_list_item()
+# for i in range(27):
+#         new_item = generate_item_number()
+#         print(new_item)
+#         table[i] = new_item
+# new_table = change_table_to_1_array(table)
+# print_table (new_table)
 
 
